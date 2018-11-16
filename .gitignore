@@ -18,3 +18,5 @@ _obj
 _test
 _testmain.go
 bin/
+core/deps/
+output/
