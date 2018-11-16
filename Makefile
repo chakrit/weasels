@@ -1,7 +1,7 @@
 #!/usr/bin/env make
 
-GOPATH=$(abspath .)/core/deps:$(abspath .)/core
-BINPATH=$(abspath .)/core/deps/bin
+GOPATH=$(abspath .)/deps:$(abspath .)/core
+BINPATH=$(abspath .)/deps/bin
 
 default: ios android
 
